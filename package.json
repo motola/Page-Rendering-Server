@@ -1,0 +1,25 @@
+{
+  "name": "page-rendering-server",
+  "version": "1.0.0",
+  "description": "A stutrern Assignment",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motola/Page-Rendering-Server.git"
+  },
+  "author": "akinola olutola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motola/Page-Rendering-Server/issues"
+  },
+  "homepage": "https://github.com/motola/Page-Rendering-Server#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}

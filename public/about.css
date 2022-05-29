@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+.one {
+    background-color: rgb(102, 191, 191);
+   
+}
+
+.f1 {
+    padding-top: 75px;
+    font-weight: 800;
+    display: block;
+    width:100%;
+    color:white;
+    text-align: center;
+    font-family: Sacramento, cursive;
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+}
+
+.f1-2 {
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flex {
+    display: flex;
+     margin-top: 120px;
+     height: 260px;
+     line-height: 18px;
+     text-align: center;
+     align-items:flex-start;
+     border-bottom: 1px  solid gray;
+   flex-direction: row;
+   font-family: "Montserrat", sans-serif;
+ 
+
+
+
+}
+
+.flex img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.flex1 {
+    /* width:30%; */
+    text-align: center;
+    flex:1.5;
+}
+.flex2 {
+    /* max-width: 50%;
+    margin-left:5%;
+    margin-left: 5%; */
+    flex:3;
+}
+
+.flex2 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+
+}
+h1 {
+    
+    margin-bottom: 15px;
+    font-size: 27px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+   
+}
+
+
+.two {
+    margin: 30px;
+    display: block;
+    text-align: center;
+}
+
+.two h1 {
+    margin-top:20px;
+    margin-bottom: 30px;
+    font-size: 29px;
+    color: rgb(102, 191, 191);
+}
+
+.two h2 {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(17, 153, 158)
+}
+
+.two p {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 22px;
+}
+
+.three {
+    background-color: rgb(172, 219, 219);
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    /* margin-top: 25px; */
+}
+
+.three h1 {
+    color:rgb(102, 191, 191);
+}
+
+.three li {
+    padding-top: 13px;
+}
+
+
+.four {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.four h1 {
+    color: rgb(102, 191, 191);
+}
+
+.four h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(17, 153, 158);
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+input[type=text] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=mail] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.twogrids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+input[type=submit] {
+    background-color: rgb(17, 153, 158);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 0;
+    margin-bottom: 55px;
+}
+
+.five {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgb(17, 153, 158);
+    text-align:center;
+    line-height: 35px;
+}
